@@ -13,16 +13,16 @@
           <div class="navbar-collapse collapse" id="collapseNavbar">
               <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="introduction" data-bs-target="#myModal" data-bs-toggle="modal">Home</a>
+                      <a class="nav-link" href="#introduction">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="about" data-bs-target="#myModal" data-bs-toggle="modal">About</a>
+                      <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">Projects</a>
+                      <a class="nav-link" href="">Projects</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">Contact</a>
+                      <a class="nav-link" href="">Contact</a>
                   </li>
               </ul>
           </div>
