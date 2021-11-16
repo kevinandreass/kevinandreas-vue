@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.section-separator {
+    padding: 60px 0;
+    padding-top: 40px;
+  }
+
+/* ---- NAVIGATION BAR ---- */
+.navbar {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 1.2rem !important;
+}
+
+.nav-link {
+    padding: 8px 16px 8px 16px !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* ---- INTRODUCTION ---- */
+.img-border {
+    height: 400px;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: right;    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.front-caption h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.front-caption h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 0px 16px 0px;
+}
+
+/* ----- Scrollbar ----- */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #777777;
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+}
+
+@media screen and (max-width: 992px) {
+    .introduction .col-6 {width: 80%;}
+    .introduction .img-border {display: none;}
+}
