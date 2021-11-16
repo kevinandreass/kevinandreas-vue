@@ -1,54 +1,87 @@
 <template>
-  <div class="hello">
-    <h1>Kevin Andreas (2024250013)</h1>
-    <br>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="image1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="image2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="image1.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div>
-      <div class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>My First Bootstrap Page</h1>
-      <p>Resize this responsive page to see the effect!</p>
-    </div>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <header class="navbar-light bg-light">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="#">
+              <img src="@/assets/icon.svg" alt="" width="30" height="30" class="d-inline-block align-text-center" style="margin-right: 6px">
+              Kevin Andreas
+          </a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="collapseNavbar">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="" data-bs-target="#myModal" data-bs-toggle="modal">Contact</a>
+                  </li>
+              </ul>
           </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
-  </div>
+  </header>
+  <body>
+    <div class="container introduction">
+      <div class="row section-separator align-items-center">
+        <div class="col-6">
+          <div class="front-caption">
+              <h1>Halo, Saya Kevin Andreas!</h1>
+              <h5>Saya adalah seorang Desainer Grafis*</h5>
+              <p>
+                Cita-citanya dulu jadi arsitek, tapi berhubung SMK jurusan TKJ, berubah haluan jadi UI/UX Designer atau mungkin Front End Developer. Semoga terwujud!
+              </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-border"><img src="@/assets/img/front-image.png" width="250" height="500" alt="Front Image" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row section-separator">
+        <div class="col-sm-12 text-center section-title">
+            <h2>What I do</h2>
+        </div>
+        <div class="col-sm-4">
+          <div class="mh-service-item shadow-1 dark-bg">
+              <i class="fa fa-bullseye purple-color"></i>
+              <h3>Apa ya..</h3>
+              <p>
+                  au ah
+              </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="mh-service-item shadow-1 dark-bg">
+              <i class="fa fa-bullseye purple-color"></i>
+              <h3>UI/UX Design</h3>
+              <p>
+                  Creating UX Case Study, Redesign Website/App, Prototyping, Design System on Figma
+              </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="mh-service-item shadow-1 dark-bg">
+              <i class="fa fa-code iron-color"></i>
+              <h3>Web Development</h3>
+              <p>
+                  Creating websites with several frameworks such as Laravel, Nuxt js, and Next js.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </template>
 
 <script>
