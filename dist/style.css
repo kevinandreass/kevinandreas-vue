@@ -11,6 +11,12 @@ body {
   }
 
 /* ---- NAVIGATION BAR ---- */
+header {
+    -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+    backdrop-filter: saturate(180%) blur(20px) !important;
+    background-color: rgba(250, 250, 250, 0.72) !important;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -122,8 +128,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .front-caption h1 {font-size: 32px;}
+    .front-caption h1 {font-size: 32px; margin-top: 24px;}
     #introduction .col-6 {width: 100%;}
+    .mh-service-item {margin-top: 12px; padding: 32px;}
     .img-border {display: none;}
     .nav-link {padding: 8px !important;}
     .navbar-brand {padding-left: 8px;}
