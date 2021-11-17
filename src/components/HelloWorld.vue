@@ -1,10 +1,10 @@
 <template>
-  <header class="navbar-light bg-light sticky">
+  <header class="navbar-light sticky">
     <div class="container">
       <div class="row">
         <nav class="navbar navbar-expand-md">
           <a class="navbar-brand" href="#">
-              <img src="@/assets/icon.svg" alt="" width="30" height="30" class="d-inline-block align-text-center" style="margin-right: 6px">
+              <img src="@/assets/icon.png" alt="" width="30" height="30" class="d-inline-block align-text-center" style="margin-right: 6px">
               Kevin Andreas
           </a>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
@@ -65,6 +65,7 @@
                 </p>
             </div>
           </div>
+          <br>
           <div class="col-sm-4">
             <div class="mh-service-item shadow rounded-lg text-center">
                 <i class="fa fa-bullseye purple-color"></i>
@@ -74,6 +75,7 @@
                 </p>
             </div>
           </div>
+          <br>
           <div class="col-sm-4">
             <div class="mh-service-item shadow rounded-lg text-center">
                 <i class="fa fa-code iron-color"></i>
