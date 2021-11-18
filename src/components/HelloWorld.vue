@@ -113,6 +113,50 @@
         </div>
       </div>
     </section>
+    <section id="experience">
+      <div class="container">
+        <div class="row section-separator">
+            <div class="e-education col-sm-12 col-md-6 border-end border-2 border-dark">
+              <div class="col-sm-12 text-center section-title">
+                <h3>Education</h3>
+              </div>
+              <div class="mh-service-item shadow rounded-lg text-center">
+                  <h5>SMK Xaverius Palembang</h5>
+                  <h7>2017-2020</h7>
+                  <p>
+                      Menempuh satu-satunya SMK Xaverius di Palembang dengan jurusan Teknik Komputer dan Jaringan.
+                  </p>
+              </div>
+              <div class="mh-service-item shadow rounded-lg text-center">
+                  <h5>Universitas Multi Data Palembang</h5>
+                  <h7>2020-sekarang</h7>
+                  <p>
+                      Melanjutkan pendidikan di MDP di saat-saat pendemi. Kelas masih diadakan secara daring hingga saat ini. Saya mengambil jurusan Teknik Informatika.
+                  </p>
+              </div>
+            </div>
+            <div class="e-workexperience col-sm-12 col-md-6">
+              <div class="col-sm-12 text-center section-title">
+                <h3>Work Experience</h3>
+                  <div class="mh-service-item shadow rounded-lg text-center">
+                  <h5>PT. Gajah Unggul Internasional</h5>
+                  <h7>Juli-September 2019</h7>
+                  <p>
+                      Bekerja sebagai teknisi di divisi IT. Troubleshooting komputer, printer, dan jaringan serta mendesain.
+                  </p>
+              </div>
+              <div class="mh-service-item shadow rounded-lg text-center">
+                  <h5>CBS</h5>
+                  <h7>Oktober 2020-sekarang</h7>
+                  <p>
+                      Bekerja sebagai desainer grafis di tim kreatif perusahaan. Mendesain sosial media hingga e-commerce perusahaan serta mengatur Google dan Facebook Ads.
+                  </p>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
   </body>
 </template>
 

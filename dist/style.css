@@ -50,6 +50,20 @@ header {
     margin-bottom: 32px;
 }
 
+.section-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.mh-service-item h7 {
+    padding-bottom: 8px;
+}
+
+.mh-service-item p {
+    margin-bottom: 0;
+}
+
 /* ---- INTRODUCTION ---- */
 .img-border {
     height: 450px;
@@ -113,6 +127,27 @@ header {
     display: flex;
 }
 
+/* ----- EXPERIENCE ----- */
+#experience {
+    background-color: #fafafa;
+}
+
+.e-education {
+    padding-right: 32px !important;
+}
+
+.e-workexperience {
+    padding-left: 32px !important;
+}
+
+.e-education .mh-service-item {
+    margin-top: 12px;
+}
+
+.e-workexperience .mh-service-item {
+    margin-top: 12px;
+}
+
 /* ----- BUTTON ----- */
 .btn {
     margin: 16px 0 0 0;
@@ -149,4 +184,6 @@ header {
     .img-border {display: none;}
     .nav-link {padding: 8px !important;}
     .navbar-brand {padding-left: 8px;}
+    .e-education {padding-right: 12px !important}
+    .e-workexperience {margin-top: 40px !important; padding-left: 12px !important}
 }
