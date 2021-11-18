@@ -58,7 +58,6 @@
           </div>
           <div class="col-sm-4">
             <div class="mh-service-item shadow rounded-lg text-center">
-                <i class="fa fa-bullseye purple-color"></i>
                 <h3>Graphic Design</h3>
                 <p>
                     Not that pro, but if you give me time, I'll try to make it, perfectly, as I can.
@@ -68,7 +67,6 @@
           <br>
           <div class="col-sm-4">
             <div class="mh-service-item shadow rounded-lg text-center">
-                <i class="fa fa-bullseye purple-color"></i>
                 <h3>UI/UX Design</h3>
                 <p>
                     I'm new to this, but I loved to learn more cause this might be my future. I use Figma btw!
@@ -78,7 +76,6 @@
           <br>
           <div class="col-sm-4">
             <div class="mh-service-item shadow rounded-lg text-center">
-                <i class="fa fa-code iron-color"></i>
                 <h3>Web Development</h3>
                 <p>
                     Please teach me how to do it! Why do I need to code to move things? Is there any program that can convert Figma to website?
@@ -88,8 +85,8 @@
         </div>
       </div>
     </section>
-    <section id="about" class="about-area section-separator sky-blue">
-      <div class="container">
+    <section id="about">
+      <div class="container section-separator">
         <div class="row align-items-center">
           <div class="col-lg-6 d-none d-lg-block">
             <div class="img-about">
@@ -98,14 +95,14 @@
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="about-details">
-                <div class="section-title"><h2>Tentang Saya</h2>
+                <div class="section-title"><h2>About Me</h2>
                 </div>
                 <p>Saya merupakan seorang kreatif yang tertarik pada desain grafis, fotografi, serta videografi. Saya sangat senang untuk belajar hal baru dan menemui tantangan lain. Saya juga mampu bekerja secara kelompok maupun individu dengan baik.</p>
                 <ul class="about-info mt-4">
-                  <li><span>Nama:</span> <span>Kevin Andreas</span></li>
-                  <li><span>Tanggal Lahir:</span> <span>12 Maret 2002</span></li>
-                  <li><span>Alamat:</span> <span>Jl. MP. Mangkunegara No.03, Palembang, Indonesia</span></li>
-                  <li><span>Kode Pos:</span> <span>30114</span></li>
+                  <li><span>Name:</span> <span>Kevin Andreas</span></li>
+                  <li><span>Date of Birth:</span> <span>March 12, 2002</span></li>
+                  <li><span>Address:</span> <span>Jl. MP. Mangkunegara No.03, Palembang, Indonesia</span></li>
+                  <li><span>Zip Code:</span> <span>30114</span></li>
                   <li><span>Email:</span> <span>kevinandreas@mhs.mdp.ac.id</span></li>
                   <li><span>Phone: </span> <span>+6289692172676</span></li>
                 </ul>
