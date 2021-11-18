@@ -112,6 +112,7 @@ header {
     margin-bottom: 16px;
 }
 
+<<<<<<< HEAD
 .about-info {
     margin-bottom: 10px;
     padding-left: 0;
@@ -148,6 +149,8 @@ header {
     margin-top: 12px;
 }
 
+=======
+>>>>>>> parent of df77ca8 (ver 0.2.4)
 /* ----- BUTTON ----- */
 .btn {
     margin: 16px 0 0 0;
