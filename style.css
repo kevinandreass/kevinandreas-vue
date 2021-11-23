@@ -116,7 +116,7 @@ header {
 <<<<<<< HEAD
 .about-info {
     margin-bottom: 10px;
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 .about-info span:first-child {
