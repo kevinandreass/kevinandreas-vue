@@ -101,7 +101,7 @@
                 <div class="section-title"><h2>Tentang Saya</h2>
                 </div>
                 <p>Saya merupakan seorang kreatif yang tertarik pada desain grafis, fotografi, serta videografi. Saya sangat senang untuk belajar hal baru dan menemui tantangan lain. Saya juga mampu bekerja secara kelompok maupun individu dengan baik.</p>
-                <ul class="about-info mt-4">
+                <ul class="about-info mt-4" style="padding-left: 0px;">
                   <li><span>Nama:</span> <span>Kevin Andreas</span></li>
                   <li><span>Tanggal Lahir:</span> <span>12 Maret 2002</span></li>
                   <li><span>Alamat:</span> <span>Jl. MP. Mangkunegara No.03, Palembang, Indonesia</span></li>
