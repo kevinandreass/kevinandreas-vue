@@ -1,37 +1,36 @@
 <template>
     <div class="text-center">
-    <main class="form-signin">
+        <main class="form-signin">
         <form>
-            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <h1 class="h3 mb-3 fw-normal">Sign In</h1>
+
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
             </div>
 
             <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <router-link :to="{name: 'register'}">Register</router-link><br>
+            <router-link :to="{name: 'register'}">Register</router-link><br/>
             <router-link :to="{name: 'home'}">Home</router-link>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
         </form>
-    </main>
+        </main>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Login"
+    name: 'Login'
 }
 </script>
-
 <style scoped>
 .form-signin {
   width: 100%;

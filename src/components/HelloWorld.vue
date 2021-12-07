@@ -16,13 +16,13 @@
                       <a class="nav-link" href="#introduction">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link" href="">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="">Projects</a>
+                      <a class="nav-link" href="#dashboard">Dashboard</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="">Contact</a>
+                      <a class="nav-link" href="#login">Login</a>
                   </li>
               </ul>
           </div>
